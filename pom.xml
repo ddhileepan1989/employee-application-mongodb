@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.mentorbridge</groupId>
-	<artifactId>employeeDTO-application</artifactId>
+	<artifactId>employee-application-mangodb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>EmployeeApplication</name>
-	<description>Employee project for Spring Boot</description>
+	<name>EmployeeApplicationMangoDB</name>
+	<description>Employee project for Spring Boot with MangoDB Database</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -75,6 +75,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>employee-application-mangodb</finalName>
 	</build>
 
 </project>
