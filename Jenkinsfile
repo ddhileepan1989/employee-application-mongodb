@@ -23,7 +23,7 @@ pipeline {
             steps {
                 echo "Hello Java Express"
                 sh 'ls'
-                sh 'docker build -t  employee-application-mangodb:${BUILD_NUMBER} .'
+                sh 'docker build -t  dhileepan1989/employee-application-mangodb:${BUILD_NUMBER} .'
             }
         }
         stage('Docker Login'){
