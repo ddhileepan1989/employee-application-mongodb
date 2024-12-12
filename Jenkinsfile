@@ -36,7 +36,7 @@ pipeline {
         }
         stage('Docker Push'){
             steps {
-                sh 'docker push employee-application-mangodb:${BUILD_NUMBER}'
+                sh 'docker push dhileepan1989/employee-application-mangodb:${BUILD_NUMBER}'
             }
         }
         stage('Docker deploy'){
